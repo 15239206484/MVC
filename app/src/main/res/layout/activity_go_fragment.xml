@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_go_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="practice.code.com.baseframework.controller.GoFragmentActivity">
+
+    <FrameLayout
+        android:id="@+id/frame_add"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        >
+
+        <Button
+            android:id="@+id/hot_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="热点"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/blog_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="博客"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/other_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>
